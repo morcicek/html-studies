@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table border="2">
+        <tr>
+           <th>Days</th>
+           <th>Lesson</th>
+            <th>lesson 2</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2" align="center">Monday</td>
+            <td colspan="2" align="center" >HTML</td>
+            <!--td>HTML</td> -->
+         </tr>
+
+         <tr>
+            <!--<td>Tuesday</td>-->
+            <td>CSS</td>
+            <td align="center">JS</td>
+         </tr>
+
+         <tr>
+             <td>Wednesday</td>
+             <td>React</td>
+             <td>Django</td>
+         </tr>
+    </table>
+
+    <h2>Table Example 2</h2>
+    <table border="2">
+        <tr>
+            <th rowspan="2">Days</th>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>07.00 am</td>
+            <td>11.00 am</td>
+            <td rowspan="2">Computer Fundementals
+                <ul>
+                    <li>Hrdware</li>
+                    <li>OS</li>
+                    <li>Storage</li>
+                    <li>Data</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3">Thursday</td>
+            <td>07.00 am</td>
+            <td>07.50 am</td>
+        </tr>
+        <tr>
+            <td>08.00 am</td>
+            <td>08.50 am</td>
+            <td rowspan="2">HTML <br>CSS</td>
+        </tr>
+        <tr>
+            <td>09.00 pm</td>
+            <td>10.00 pm</td>
+        </tr>
+    </table>
+</body>
+</html>

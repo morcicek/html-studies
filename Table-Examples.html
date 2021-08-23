@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+</head>
+<body>
+    <h1>Create <i>Tables</i> in HTML</h1>
+
+    <table border="5">
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row1 Cell1</td>
+            <td>Row1 Cell2</td>
+            <td>Row1 Cell3</td>
+        </tr>
+        <tr>
+            <td>Row2 Cell2</td>
+            <td>Row2 Cell3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row3 Cell1</td>
+        </tr>
+    </table>
+<br>
+    <table border="5">
+        <tr>
+            <th colspan="2" rowspan="2"></th>
+            <!--<th></th> -->
+            <th colspan="2">Average</th>
+            <th rowspan="2">Other Category</th>
+        </tr>
+
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <th colspan="2">Males</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>yyy</td>
+        </tr>
+        <tr>
+            <th colspan="2">Females</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>xxx</td>
+        </tr>
+    </table>
+</body>
+</html>
